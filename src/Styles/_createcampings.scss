@@ -1,0 +1,161 @@
+
+.create_page{
+    .top_section{
+        .text_content{
+            h1{
+                font-size: 24px;
+                color:$black;
+                font-weight: bold;
+            }
+            p{
+                color: $light_black;
+            }
+        }
+    }
+    .stepper_section{
+        padding: 2rem;
+
+        
+
+    }
+
+    .step_one{
+        .card {
+                background-color: white;
+                padding: 2rem;
+                border-radius: 8px;
+                .header{
+                    display: flex;
+                    align-items: center;
+                    h1 {
+                            font-size: 24px;
+                        }
+                }
+
+               .container{
+                margin-top: 1rem;
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+
+                .select_card {
+                        background-color: #ffffff;
+                        border: 1.5px solid #F3F3F3;
+                        border-radius: 8px;
+                        display: flex;
+                        align-items: center;
+                        gap: 8px;
+                        padding: 1rem;
+                        cursor: pointer;
+                        position: relative;
+                        
+
+                        .select_indicator{
+                            position: absolute;
+                            top:-10px;
+                            right:-10px;
+                            z-index: 99;
+                        }
+
+                        &.active{
+                            border: 1.5px solid $primary_color ;
+                        }
+                
+                        .content {
+                            p {
+                                font-size: 16px;
+                                font-weight: 500;
+                                color: $black;
+                            }
+                
+                            span {
+                                font-size: 13px;
+                                color: $light_black;
+                            }
+                        }
+
+                        &.product{
+                            padding: 12px;
+                            .icon{
+                                width: 58px;
+                                height: 54px;
+                                background-color: red; 
+                                border-radius: 8px;
+                            }
+
+                            .select_icon{
+                                margin-left: 8px;
+                            }
+
+                        }
+                
+                    }
+               }
+
+               .btn_section{
+                margin-top: 1rem;
+                display: flex;
+                justify-content: flex-end;
+               }
+
+            }
+    }
+
+        .step_three {
+            display: flex;
+            gap: 1rem;
+            .card {
+                background-color: white;
+                padding: 2rem;
+                border-radius: 8px;
+                flex: 0.7;
+                .header {
+                    display: flex;
+                    align-items: center;
+    
+                    h1 {
+                        font-size: 24px;
+                    }
+                }
+    
+                .container {
+                    margin-top: 1rem;
+                   
+                    
+                    .budget_contanier {
+                        width: 100%;
+                        margin-top: 1rem;
+                        p {
+                            font-size: 14px;
+                            color: $black;
+                            margin-bottom: 18px;
+                        }
+    
+                        .toggle_section {
+                            width: max-content;
+                    
+                        }
+
+                        .dates_grp {
+                            display: flex;
+                            align-items: center;
+                            gap: 1rem;
+                        }
+                    }
+    
+    
+                }
+    
+               
+    
+            }
+        .btn_section {
+            margin-top: 1rem;
+            align-items: flex-end;
+            display: flex;
+
+        }
+        }
+
+   
+}

@@ -1,0 +1,21 @@
+.dashboard{
+    padding: 2rem;
+
+    .dashboard_top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .text_content{
+            h1{
+                font-size: 24;
+                color:$black;
+            }
+            p{
+                color: $light_black;
+            }
+        }
+
+    }
+
+}
